@@ -29,7 +29,7 @@ function Weather(){
         <div className='result'>
         <p><i class="fa-solid fa-fan fa-spin-pulse"></i></p>
         <p>Place <i class="fa-solid fa-location-dot"></i> : {weather.name}</p><br/>        
-        <p>Cloud/Rain <i class="fa-solid fa-cloud-sun-rain"></i> : {weather.weather[0].main}</p><br/>
+        <p>Sky <i class="fa-solid fa-cloud-sun-rain"></i> : {weather.weather[0].main}</p><br/>
         <p>Temp <i class="fa-solid fa-temperature-half fa-bounce"></i> : {weather.main.temp}°C</p><br/>
         <p>Description : {weather.weather[0].description}</p>
         </div>
