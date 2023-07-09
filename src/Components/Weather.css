@@ -10,6 +10,10 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .weather{
@@ -28,9 +32,6 @@ h1{
     display: flex; 
     border: 1px solid black;
     border-radius: 10px;
-    position: absolute;
-    top: 25%;
-    left: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
