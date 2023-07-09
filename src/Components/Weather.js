@@ -14,7 +14,9 @@ function Weather(){
         fetch(`${api.base}weather?q=${search}&units=metric&APPID=${api.key}`)
         .then((res => res.json()))
         .then((data) => setWeather(data))
-    }
+    } 
+
+    document.title = "Weather";
 
   return (
     <div className='Weather'>
